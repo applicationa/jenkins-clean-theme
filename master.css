@@ -13,6 +13,14 @@ body {
 
 #header .login a {
   color: #fff!important;
+  line-height: 22px;
+}
+
+pre.console-output {
+  background: #333;
+  color: #fff;
+  margin-left: -21px;
+  padding: 20px;
 }
 
 #jenkins-head-icon {
@@ -118,7 +126,6 @@ body {
 }
 
 #footer {
-    background: rgba(0,0,0,.04);
     color: #505050!important;
 }
 
@@ -127,6 +134,7 @@ body {
 }
 
 #footer-container {
+    background: rgba(0,0,0,.05)!important;
     position: fixed;
     bottom: 0;
 }
