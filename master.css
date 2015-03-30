@@ -2,6 +2,12 @@ body {
     background: #fff!important;
 }
 
+#header {
+  background: #205081;
+  color: #fff;
+  border-bottom-color: #2e3d54;
+}
+
 #jenkins-head-icon {
   display: none !important;
 }
