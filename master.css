@@ -6,6 +6,13 @@ body {
   background: #205081;
   color: #fff;
   border-bottom-color: #2e3d54;
+  background-image: url('img/johnson-logo-title.png');
+  background-repeat: no-repeat;
+  background-position: 20px center;
+}
+
+#header .login a {
+  color: #fff!important;
 }
 
 #jenkins-head-icon {
@@ -104,6 +111,10 @@ body {
     margin-top: 4px;
     margin-left: 5px;
     float: right;
+}
+
+#searchform > a {
+    display: none!important;
 }
 
 #footer {
