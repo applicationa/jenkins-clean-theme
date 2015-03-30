@@ -59,14 +59,18 @@ pre.console-output {
     height: 35px!important;
 }
 
+#breadcrumbs li {
+    margin-top: 12px;
+}
+
 #breadcrumbs li a {
     color: #fff!important;
     padding-top: 5px;
-    height: 30px!important;
+    height: 34px!important;
 }
 
 #breadcrumbs li a:hover {
-    background: #fff;
+    background: #296ca3;
     color: #505050!important;
     text-decoration: none!important;
 }
@@ -134,7 +138,7 @@ pre.console-output {
 }
 
 #footer-container {
-    background: rgba(0,0,0,.05)!important;
+    background: #f0f0f0!important;
     position: fixed;
     bottom: 0;
 }
