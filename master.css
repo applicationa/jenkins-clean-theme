@@ -1,3 +1,4 @@
+/* https://rawgit.com/applicationa/jenkins-clean-theme/master/master.css */
 body {
     background: #fff!important;
 }
@@ -60,7 +61,7 @@ pre.console-output {
 }
 
 #breadcrumbs li {
-    margin-top: 12px;
+    
 }
 
 #breadcrumbs li a {
@@ -69,10 +70,21 @@ pre.console-output {
     height: 34px!important;
 }
 
+#breadcrumbs li:hover {
+    background: transparent!important;
+}
+
 #breadcrumbs li a:hover {
-    background: #296ca3;
+    /*background: #296ca3;*/
+    background: #f0f0f0!important;
+    /*background: rgba(255,255,255,.75)!important;*/
     color: #505050!important;
     text-decoration: none!important;
+}
+
+#breadcrumbs li a.breadcrumbBarAnchor.mouseIsOverMenuSelector {
+    background: #f0f0f0!important;
+    color: #505050!important;
 }
 
 #right-top-nav a {
@@ -141,6 +153,11 @@ pre.console-output {
     background: #f0f0f0!important;
     position: fixed;
     bottom: 0;
+}
+
+#bottom-sticker {
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 a {
@@ -671,7 +688,7 @@ li.children {
     border-left: 5px solid #F0F0F0!important;
     margin-right: 5px;
     margin-left: 5px;
-    margin-top: 15px;
+    margin-top: 13px;
 }
 
 li.children:hover {
@@ -784,7 +801,7 @@ img[src*="progress-unknown.gif"], img[src*="progress-unknown-red.gif"] {
 
 #executors th.pane a.model-link {
     display: block;
-    max-width: 1px;
+    /*max-width: 1px;*/
     overflow: hidden;
     text-overflow: ellipsis;
 }
